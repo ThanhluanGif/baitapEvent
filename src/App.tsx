@@ -1,10 +1,12 @@
 import React from 'react';
 import ColorChange from './ColorChange';
+import ChangeCount from './ChangeCount';
 
 const App: React.FC = () => {
   return (
     <div>
-      <ColorChange />
+      {/* <ColorChange /> */}
+      <ChangeCount />
     </div>
   );
 };
